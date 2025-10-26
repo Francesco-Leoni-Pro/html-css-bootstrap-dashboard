@@ -46,15 +46,26 @@
             </div>
             <div class="mb-3">
                 <label for="author-surname" class="form-label">Cognome Autore</label>
-                <input type="text" class="form-control" id="author-surname" placeholder="Inserisci il cognome dell'autore">
+                <input type="text" class="form-control" id="author-surname"
+                    placeholder="Inserisci il cognome dell'autore">
             </div>
             <div class="mb-3">
                 <label for="title" class="form-label">Titolo</label>
                 <input type="text" class="form-control" id="title" placeholder="Inserisci il titolo del libro">
             </div>
             <div class="mb-3">
-                <label for="publisher" class="form-label">Casa XXX</label>
-                <input type="text" class="form-control" id="publisher" placeholder="Inserisci la casa editrice">
+                <label for="genre" class="form-label">Genere</label>
+                <select class="form-select" id="genre">
+                    <option value="" selected disabled>Seleziona un genere</option>
+                    <option value="narrativa">Narrativa</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="giallo">Giallo</option>
+                    <option value="storico">Storico</option>
+                    <option value="biografia">Biografia</option>
+                    <option value="saggistica">Saggistica</option>
+                    <option value="fantascienza">Fantascienza</option>
+                    <option value="romantico">Romantico</option>
+                </select>
             </div>
             <div class="mb-3">
                 <label for="year" class="form-label">Anno di Pubblicazione</label>
